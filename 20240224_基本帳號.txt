@@ -17,16 +17,19 @@
     會建二個資料夾(隱藏檔是.開頭的)
     .devcontainer
     .github
-    左下角點add Dev Container Configuration Files...
-        Create a new
+    左下角Codespace:obscure lamp 
+      點add Dev Container Configuration Files...
+        Create a new config
             Python 3 devcontainer
                 3.10-bullseye 
-                    A shell
-                    A Shell Comm
-                    Git CLI 
+                    A Remote Shell Scripts Runner..
+                    A Shell Commmand....
+                    Git CLI devcontainers
                     Git (from source) devcontainer
-                        Keep
+                        Keep Defaults
 
+
+左下角點一下, 選
 
 
 
