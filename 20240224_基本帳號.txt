@@ -1,0 +1,15 @@
+1.上課網址:https://meet.google.com/ptx-fxwn-odh
+2.上課看回播：左上大聲公/點開/copy網址 
+3.建立基本帳號
+  a.google帳號
+  b.github帳號  https://github.com/
+  c.render帳號 google帳號  https://render.com/
+  
+4.老師的github https://github.com/roberthsu2003/
+    https://github.com/roberthsu2003/python-SQLite-MySQL
+
+5.建repo
+  建codespace
+  查環境,終端機打　uname　，可以查環境
+
+6.
