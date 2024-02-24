@@ -27,9 +27,8 @@
                     Git CLI devcontainers
                     Git (from source) devcontainer
                         Keep Defaults
-
-
-左下角點一下, 選Rebuild Container 
+                          左下角點一下, 選Rebuild Container 
+                          
 
 
 
