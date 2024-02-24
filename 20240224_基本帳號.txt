@@ -9,7 +9,28 @@
     https://github.com/roberthsu2003/python-SQLite-MySQL
 
 5.建repo
-  建codespace
-  查環境,終端機打　uname　，可以查環境
+
+6.建codespace
+  a.查環境,終端機打　uname　，可以查看編輯環境
+  b.建立一個Python 開發環境的描述檔(devcontainer.json)
+    可以自己打, 也可以用工具點出來描述檔
+    會建二個資料夾(隱藏檔是.開頭的)
+    .devcontainer
+    .github
+    左下角點add Dev Container Configuration Files...
+        Create a new
+            Python 3 devcontainer
+                3.10-bullseye 
+                    A shell
+                    A Shell Comm
+                    Git CLI 
+                    Git (from source) devcontainer
+                        Keep
+
+
+
+
+
+
 
 6.
