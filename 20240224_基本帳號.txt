@@ -29,7 +29,7 @@
                         Keep Defaults
 
 
-左下角點一下, 選
+左下角點一下, 選Rebuild Container 
 
 
 
