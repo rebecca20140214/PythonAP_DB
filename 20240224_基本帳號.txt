@@ -7,6 +7,7 @@
   
 4.老師的github https://github.com/roberthsu2003/
     https://github.com/roberthsu2003/python-SQLite-MySQL
+    https://github.com/roberthsu2003/__112_gov_Python_sql__
 
 5.建repo
 
@@ -77,7 +78,7 @@ copy render 上 postgresql_20240224
 --
 以後每次上課都要安裝的軟體 
 1.pgAdmin
-
+2.githubdesktop  
 
 
 
