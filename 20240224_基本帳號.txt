@@ -61,3 +61,5 @@ git commit 出現訊息, 要不要每次都寫commit 說明, 選always
 
 
 建立一個免費的雲端資料庫
+
+pgAdmin 是官方postgreSQl的管理軟體
