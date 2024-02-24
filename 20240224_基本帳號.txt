@@ -31,12 +31,22 @@
                           怎麼辦判是否有判斷成功
                           在終端機檢示python版本
                           python --version
+7.建一個lesson1_0.py
+  輸入 print('Hello python')               
+  在端端機輸入 python 1_1.py
+  出現Hello python 就是正確
+  有區分大小寫
 
-                        
+8.xxx.py 執行檔
+  xxx.ipynb 學習/測試檔
+  安裝套件
+  按左邊延伸模組
+  Jupyter 會預設4個,直接按安裝就好
+  沒有default 就自己裝
+  Jupyter
+  jupyterjupyter Keymap
+  Jupyter Slide Show
+  Jupyter Cell Tags
 
+  .
 
-
-
-
-
-6.
