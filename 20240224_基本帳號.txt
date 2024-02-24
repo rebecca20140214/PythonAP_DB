@@ -49,4 +49,6 @@
   Jupyter Cell Tags
 
   .
-
+code space 左下角點可以選
+stop current codespac 
+就立馬離開codespace了
