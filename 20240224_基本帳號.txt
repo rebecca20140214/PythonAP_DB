@@ -74,6 +74,9 @@ Register Server
 copy render 上 postgresql_20240224
 的 External Database URL
 
+--
+以後每次上課都要安裝的軟體 
+1.pgAdmin
 
 
 
