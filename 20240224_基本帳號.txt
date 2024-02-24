@@ -69,5 +69,13 @@ pgAdmin 是官方postgreSQl的管理軟體
 https://github.com/roberthsu2003/python-SQLite-MySQL?tab=readme-ov-file
 老師都有寫參考連結
 
+Register Server 
+
+copy render 上 postgresql_20240224
+的 External Database URL
+
+
+
+
 
 
