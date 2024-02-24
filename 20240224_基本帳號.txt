@@ -52,3 +52,9 @@
 code space 左下角點可以選
 stop current codespac 
 就立馬離開codespace了
+
+
+
+git commit 出現訊息, 要不要每次都寫commit 說明, 選always
+
+如果main 有資料,要不要同步回來,   yes 
