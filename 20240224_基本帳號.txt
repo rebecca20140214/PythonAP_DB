@@ -58,3 +58,6 @@ stop current codespac
 git commit 出現訊息, 要不要每次都寫commit 說明, 選always
 
 如果main 有資料,要不要同步回來,   yes 
+
+
+建立一個免費的雲端資料庫
