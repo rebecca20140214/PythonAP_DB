@@ -9,8 +9,18 @@
    host 加singapore-postgres.render.com 
 
 4.github 自己的網址：https://github.com/rebecca20140214/PythonAP_DB
+
+5.下載老師提供的DB,restore 
+https://github.com/roberthsu2003/python-SQLite-MySQL/blob/master/postgresSQL/%E7%AF%84%E4%BE%8B%E8%B3%87%E6%96%99%E5%BA%AB/dvd_rental_database/dvdrental.zip
+
 -----------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
 3.以後每次上課都要安裝的軟體 
   3.1.githubdesktop   https://desktop.github.com/
   3.2.pgAdmin：https://www.postgresql.org/ftp/pgadmin/pgadmin4/v8.3/windows/
