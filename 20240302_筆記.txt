@@ -19,6 +19,8 @@
 4.登入web git hub ,開啟codespace,按左下角左數第3顆更新案鈕
   要會登入/上傳更新/下載更新
 
+pgadmin\psql\下指令   \d student
+可以查table 結構
 
 
 Query Tool/可以下sql
