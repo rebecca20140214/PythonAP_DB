@@ -21,6 +21,10 @@ https://ithelp.ithome.com.tw/articles/10220492
 把檔案匯出去  
  \COPY payment TO 'd:/payment.txt'WITH (FORMAT CSV, HEADER, DELIMITER '|');
 
+ \COPY stations TO 'd:/stations.csv'WITH (FORMAT CSV, HEADER, DELIMITER '|');
+
+
+
  \COPY payment TO 'd:/payment.txt'WITH (FORMAT CSV, HEADER, DELIMITER '|');
 
 
