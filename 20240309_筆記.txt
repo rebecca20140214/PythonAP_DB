@@ -16,9 +16,20 @@ https://github.com/roberthsu2003/python-SQLite-MySQL/blob/master/postgresSQL/%E7
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------
+https://ithelp.ithome.com.tw/articles/10220492
+
 把檔案匯出去  
+ \COPY payment TO 'd:/payment.txt'WITH (FORMAT CSV, HEADER, DELIMITER '|');
 
  \COPY payment TO 'd:/payment.txt'WITH (FORMAT CSV, HEADER, DELIMITER '|');
+
+
+把檔案匯進來
+
+
+ \COPY stations3 FROM 'D:\2022.csv'WITH (FORMAT CSV, HEADER);
+
+
 
 
 3.以後每次上課都要安裝的軟體 (下戴/安裝/登入)
