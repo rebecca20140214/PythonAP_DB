@@ -20,8 +20,12 @@ https://github.com/roberthsu2003/python-SQLite-MySQL/blob/master/postgresSQL/%E7
 1.老師介紹postgresql open source :  https://pgexercises.com/
 2.也可以用ORM, 自動轉SQL
 3.跨工具要先下載再修改更新
+4.有衝突時,跟code space說要怎麼更新 git config pullrebase false
+5.查清單 git config--list  如困pullrebase 不是false,就輸入git config pullrebase false
 
-
+在終端機下打python 出現>>> 就可以知道python版本
+進入ipython介面
+打 exit打以離開
 
 
 
