@@ -27,18 +27,18 @@ https://github.com/roberthsu2003/python-SQLite-MySQL/blob/master/postgresSQL/%E7
 進入ipython介面
 打 exit打以離開
 
+———————————————————————————————
 
-1.安裝
-2.dark mode
-3.變中文版
-4.固定存檔
-
+安裝vistualcode：下戴＼安裝＼變中文＼變固存檔
 設定中文:在齒輸/選command palette(命令選擇區) /config display lange(設定顯示語言)
 設定自動存檔：管理/設定/經常使用/選afterdelay
+
 安裝套件：github codespace
-display
-config  lange
-restart 變中文
+
+連線codespace：vistualcode左下角點\開啟選端視窗\選codespace\輸入github相關資訊,就可以連到 codespace
+
+離開codespace:vistualcode左下角點\開啟選端視窗\關閉遠端連線
+
 
 
 https://ithelp.ithome.com.tw/articles/10220492
