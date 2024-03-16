@@ -26,12 +26,28 @@ codespace
 
 ———————————————————————————————
 ———————————————————————————————
-安裝 miniconda
+安裝 
+下載 miniconda,要注意版本 Python: 3.12.1. 
 https://docs.anaconda.com/free/miniconda/index.html
-
-
 add Miniconda3 to my path envirconment variable 打勾
 welcome to Anaconda 取消打勾
+
+
+安裝好可以把anaconda叫出來(dos 介面)
+
+https://gist.github.com/roberthsu2003/public
+
+
+
+ gist 一頁說明
+
+ repo 是多頁說明
+
+https://github.com com roberthsu2003 
+
+點帳號/點gists 
+
+
 
 
 ———————————————————————————————
