@@ -28,7 +28,17 @@ https://github.com/roberthsu2003/python-SQLite-MySQL/blob/master/postgresSQL/%E7
 打 exit打以離開
 
 
+1.安裝
+2.dark mode
+3.變中文版
+4.固定存檔
 
+設定中文:在齒輸/選command palette(命令選擇區) /config display lange(設定顯示語言)
+設定自動存檔：管理/設定/經常使用/選afterdelay
+安裝套件：github codespace
+display
+config  lange
+restart 變中文
 
 
 https://ithelp.ithome.com.tw/articles/10220492
