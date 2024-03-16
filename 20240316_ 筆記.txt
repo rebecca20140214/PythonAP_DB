@@ -48,10 +48,74 @@ https://github.com com roberthsu2003
 點帳號/點gists 
 
 
-
-
 ———————————————————————————————
 ———————————————————————————————
+conda
+安裝mini conda
+https://docs.anaconda.com/free/miniconda/index.html
+取消termail一開始就進入base虛擬環境
+conda config --set auto_activate_base false
+conda版本檢查
+conda -V
+conda更新
+conda update conda
+檢查目前已建立的虛擬環境
+conda env list
+建立虛擬環境
+conda create --name myenv python=3.10.13
+
+建立環境
+conda create --name rebeccaenv python=3.10.13
+
+預設是base
+
+切換環境
+conda activate rebeccaenv 
+打python 可以查版本
+
+切換環境
+conda activate base
+---------------------------------------------
+
+
+
+
+
+開啟資料夾, 
+建立一個py檔
+會提示安裝python套件
+跟vscode說要用那一個環境
+
+miniconda建立環境以後
+viscode 右下角可以選到自己要的環境
+
+
+max:zsh
+
+windows:minianacodas
+
+
+
+
+
+啟動虛擬環境
+conda activate myenv
+離開虛擬環境
+conda deactivate
+安裝套件
+conda activate myenv
+conda install matplotlib
+conda install --name myenv matplotlib
+安裝requirement.txt
+conda install --yes --file requirements.txt
+檢查目前安裝的套件
+conda list
+刪除虛擬環境
+conda env remove --name myenv
+刪除虛擬環境的套件
+
+
+
 ———————————————————————————————
 ———————————————————————————————
 
