@@ -1,0 +1,160 @@
+1.上課網址:https://meet.google.com/ptx-fxwn-odh
+2.老師文件的網址：
+   2.1 python-SQLite-MySQL
+      https://github.com/roberthsu2003/python-SQLite-MySQL/tree/master/postgresSQL
+   2.2 _112_gov_Python_sql__
+      https://github.com/roberthsu2003/__112_gov_Python_sql__
+3.render 查密碼的網址：https://dashboard.render.com/d/dpg-cncof5mv3ddc73c84180-a
+
+   host 加singapore-postgres.render.com 
+
+4.github 自己的網址：https://github.com/rebecca20140214/PythonAP_DB
+
+5.下載老師提供的DB,restore 
+https://github.com/roberthsu2003/python-SQLite-MySQL/blob/master/postgresSQL/%E7%AF%84%E4%BE%8B%E8%B3%87%E6%96%99%E5%BA%AB/dvd_rental_database/dvdrental.zip
+6.老師是用mac figma講解
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+https://ithelp.ithome.com.tw/articles/10220492
+
+把檔案匯出去  
+ \COPY payment TO 'd:/payment.txt'WITH (FORMAT CSV, HEADER, DELIMITER '|');
+
+ \COPY stations TO 'd:/stations.csv'WITH (FORMAT CSV, HEADER, DELIMITER '|');
+
+
+
+ \COPY payment TO 'd:/payment.txt'WITH (FORMAT CSV, HEADER, DELIMITER '|');
+
+
+把檔案匯進來
+
+
+ \COPY stations3 FROM 'D:\2022.csv'WITH (FORMAT CSV, HEADER);
+
+
+
+
+3.以後每次上課都要安裝的軟體 (下戴/安裝/登入)
+  3.1.githubdesktop   https://desktop.github.com/
+  3.2.pgAdmin：https://www.postgresql.org/ftp/pgadmin/pgadmin4/v8.3/windows/
+  3.3 line
+  
+4.登入web git hub ,開啟codespace,按左下角左數第3顆更新案鈕
+  要會登入/上傳更新/下載更新
+
+pgadmin\psql\下指令   \d student
+可以查table 結構
+
+
+Query Tool/可以下sql
+
+
+select now() as 現在utc時間,格林威治時間
+
+
+
+github  unwatch/custom/issue/apply 申請異動通知
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+關連式資料庫
+1.資料不重覆
+2.保持資料一制性
+3.
+
+
+
+20240302 新增加安裝vistual code
+到Extensions 安裝
+1.jupyter(4)
+
+chihlee_postgresql
+
+
+
+
+2.上課看回播：左上大聲公/點開/copy網址 
+3.建立基本帳號
+  a.google帳號
+  b.github帳號  https://github.com/
+  c.render帳號 google帳號  https://render.com/
+  
+4.老師的github https://github.com/roberthsu2003/
+    https://github.com/roberthsu2003/python-SQLite-MySQL
+    https://github.com/roberthsu2003/__112_gov_Python_sql__
+
+5.建repo
+
+6.建codespace
+  a.查環境,終端機打　uname　，可以查看編輯環境
+  b.建立一個Python 開發環境的描述檔(devcontainer.json)
+    可以自己打, 也可以用工具點出來描述檔
+    會建二個資料夾(隱藏檔是.開頭的)
+    .devcontainer
+    .github
+    左下角Codespace:obscure lamp 
+      點add Dev Container Configuration Files...
+        Create a new config
+            Python 3 devcontainer
+                3.10-bullseye 
+                    A Remote Shell Scripts Runner..
+                    A Shell Commmand....
+                    Git CLI devcontainers
+                    Git (from source) devcontainer
+                        Keep Defaults
+                          左下角點一下, 選Rebuild Container 
+                          怎麼辦判是否有判斷成功
+                          在終端機檢示python版本
+                          python --version
+7.建一個lesson1_0.py
+  輸入 print('Hello python')               
+  在端端機輸入 python 1_1.py
+  出現Hello python 就是正確
+  有區分大小寫
+
+8.xxx.py 執行檔
+  xxx.ipynb 學習/測試檔
+  安裝套件
+  按左邊延伸模組
+  Jupyter 會預設4個,直接按安裝就好
+  沒有default 就自己裝
+  Jupyter
+  jupyterjupyter Keymap
+  Jupyter Slide Show
+  Jupyter Cell Tags
+
+  .
+code space 左下角點可以選
+stop current codespac 
+就立馬離開codespace了
+
+
+
+git commit 出現訊息, 要不要每次都寫commit 說明, 選always
+
+如果main 有資料,要不要同步回來,   yes 
+
+
+建立一個免費的雲端資料庫
+
+pgAdmin 是官方postgreSQl的管理軟體
+到官網下載最新版：https://www.postgresql.org/ftp/pgadmin/pgadmin4/v8.3/windows/
+以後每次都要安裝
+
+https://github.com/roberthsu2003/python-SQLite-MySQL?tab=readme-ov-file
+老師都有寫參考連結
+
+Register Server 
+
+copy render 上 postgresql_20240224
+的 External Database URL
+
+--
+
+
+
+
+
