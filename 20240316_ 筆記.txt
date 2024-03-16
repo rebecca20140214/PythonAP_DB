@@ -84,11 +84,10 @@ conda activate base
 斷開codespace,
 單純連自己的資料夾,不會用codespace時間,
 開自己的的資料夾
-會題示安裝python
+開啟一個.py的檔案
+會題示是否信任：Y
+並安裝：python language support with extension access points for IntelliSense (Pylance), Debugging (Python Debugger), linting, formatting, refactoring, unit tests, and more.
 這時後才能選剛剛建立的rebeccaenv
-
-
-
 
 ———————————————————————————————
 ———————————————————————————————
@@ -139,6 +138,8 @@ python 內建的含數有多少個?
 	 最常用在：拆解法
 
 *3.list：串邛資料
+          是用中括號
+
 *4.dcitionary：map
 5.set：一組資料
 
