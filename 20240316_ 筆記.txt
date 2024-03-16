@@ -67,6 +67,9 @@ conda create --name myenv python=3.10.13
 建立環境
 conda create --name rebeccaenv python=3.10.13
 
+
+conda create --name rebeccaenv2 python=3.10.13
+
 預設是base
 
 切換環境
@@ -75,7 +78,83 @@ conda activate rebeccaenv
 
 切換環境
 conda activate base
----------------------------------------------
+———————————————————————————————
+———————————————————————————————
+mac 要先裝blue再裝
+———————————————————————————————
+———————————————————————————————
+windows vscode 安裝git 
+
+download git   
+standalone install git 
+都下一步, 最重要的是
+
+install之前的最後一頁,2個都要打勾
+
+
+git 初始化
+https://git-scm.com/book/zh-tw/v2/%E9%96%8B%E5%A7%8B-%E5%88%9D%E6%AC%A1%E8%A8%AD%E5%AE%9A-Git
+
+git Config --list
+
+建帳號
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+———————————————————————————————
+———————————————————————————————
+開vscode
+
+選base,安裝git, install前一頁要有勾
+在vs終端機下,右上啟動設定檔,才能選base
+選完後輸入
+git config pull.rebase false
+
+確認有裝二大套件
+安裝python
+安裝jupyter 
+
+新增一個ipyno檔,選python核心
+———————————————————————————————
+———————————————————————————————
+儲存1個值
+1.一般變數：
+儲存多個值才稱資料結構
+2.tuple：串邛資料(暫時使用,只用一下子)
+*3.list：串邛資料
+*4.dcitionary：map
+5.set：一組資料
+
+
+資料型別只有四種
+
+整數/浖天數/字串/布林值
+
+
+如果沒有指定給變數, 
+
+會強制用print()
+
+# 註解
+
+
+
+
+
+
+
+
+
+
+
+———————————————————————————————
+———————————————————————————————
+
+
+
+
+
+
+
 
 
 
