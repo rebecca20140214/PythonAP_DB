@@ -32,7 +32,13 @@ https://github.com/roberthsu2003/python-SQLite-MySQL/blob/master/postgresSQL/%E7
 1.line
 2.git
 3.miniconda
-4.vistual code(python/jupyter*4 )
+4.vistual code(python/jupyter*4/github )
+5.安裝python外部套件：quick install 
+pip quick install
+
+要有清單跟python說有用了那一些外部套件
+清單：名稱固定為：requirements.txt
+在根目錄安裝:開終端機, pip install -r requirement.txt
 ———————————————————————————————
 ———————————————————————————————
 
