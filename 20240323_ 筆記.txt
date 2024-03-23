@@ -37,8 +37,11 @@ https://github.com/roberthsu2003/python-SQLite-MySQL/blob/master/postgresSQL/%E7
 pip quick install
 
 要有清單跟python說有用了那一些外部套件
-清單：名稱固定為：requirements.txt
-在根目錄安裝:開終端機, pip install -r requirement.txt
+清單：名稱固定為：requirements.txt（放在根目錄）
+安裝：
+安裝:開終端機, pip install -r requirement.txt
+下載
+pip install -r requirements.txt
 ———————————————————————————————
 ———————————————————————————————
 
