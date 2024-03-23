@@ -1,0 +1,268 @@
+———————————————————————————————
+———————————————————————————————
+conda 安裝好可以把anaconda叫出來(dos 介面)
+安裝 ，下載 miniconda,要注意版本 Python: 3.12.1. 
+https://docs.anaconda.com/free/miniconda/index.html
+add Miniconda3 to my path envirconment variable 打勾
+welcome to Anaconda 取消打勾
+
+
+
+老師的參考指令區：https://gist.github.com/roberthsu2003/public
+
+取消termail一開始就進入base虛擬環境
+conda config --set auto_activate_base false
+conda版本檢查
+conda -V
+conda更新
+conda update conda
+檢查目前已建立的虛擬環境
+conda env list
+
+建立虛擬環境 python 自己的環境
+conda create --name rebeccaenv python=3.10.13
+
+預設是base
+
+切換環境
+conda activate rebeccaenv 
+打python 可以查版本
+
+切換環境
+conda activate base
+——————————————————————————————————————————————————————————————
+——————————————————————————————————————————————————————————————
+安裝 
+
+codespace 滿了,要用local 作業
+
+1.download vistual code
+	a.安裝vistualcode：
+	下戴＼安裝＼變中文＼變固存檔
+	設定中文:在齒輸/選command palette(命令選擇區) /config display lange(設定顯示語言)
+	設定自動存檔：管理/設定/經常使用/選afterdelay
+	b.安裝套件：github codespace
+	c.設定自動存檔：管理/設定/經常使用/選afterdelay
+	d.連線codespace：vistualcode左下角點\開啟選端視窗\選codespace\輸入github相關資訊,就可以連到 codespace
+    e.離開codespace:vistualcode左下角點\開啟選端視窗\關閉遠端連線
+2.download miniconda
+3.先在vscode,延申新增GitHub Codespaces
+4.遠端連到codespace
+
+
+———————————————————————————————
+———————————————————————————————
+
+基本browser要開
+a.看Python標準函式庫 https://docs.python.org/zh-tw/3/library/index.html
+b.Python說明文件
+
+
+1.老師介紹postgresql open source :  https://pgexercises.com/
+2.也可以用ORM, 自動轉SQL
+———————————————————————————————
+———————————————————————————————
+
+
+？
+ gist 一頁說明
+ repo 是多頁說明
+https://github.com com roberthsu2003 
+
+點帳號/點gists 
+
+———————————————————————————————
+——————————————————————————————————————————————————————————————
+———————————————————————————————
+codespace
+3.跨工具要先下載再修改更新
+4.有衝突時,跟code space說要怎麼更新 git config pullrebase false
+5.查清單 git config--list  如困pullrebase 不是false,就輸入git config pullrebase false
+
+在終端機下打python 出現>>> 就可以知道python版本
+進入ipython介面
+打 exit打以離開
+
+———————————————————————————————
+———————————————————————————————
+
+
+
+———————————————————————————————
+———————————————————————————————
+在vscode可以選擇 conda環境, 
+斷開codespace,
+單純連自己的資料夾,不會用codespace時間,
+開自己的的資料夾
+開啟一個.py的檔案
+會題示是否信任：Y
+並安裝：python language support with extension access points for IntelliSense (Pylance), Debugging (Python Debugger), linting, formatting, refactoring, unit tests, and more.
+這時後才能選剛剛建立的rebeccaenv
+
+———————————————————————————————
+———————————————————————————————
+mac 要先裝blue再裝
+———————————————————————————————
+———————————————————————————————
+windows vscode 安裝git 
+
+download git   
+standalone install git 
+都下一步, 最重要的是
+
+install之前的最後一頁,2個都要打勾
+
+
+git 初始化
+https://git-scm.com/book/zh-tw/v2/%E9%96%8B%E5%A7%8B-%E5%88%9D%E6%AC%A1%E8%A8%AD%E5%AE%9A-Git
+
+git Config --list
+
+建帳號
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+———————————————————————————————
+———————————————————————————————
+開vscode
+
+選base,安裝git, install前一頁要有勾
+在vs終端機下,右上啟動設定檔,才能選base
+選完後輸入
+git config pull.rebase false
+
+確認有裝二大套件
+安裝python
+安裝jupyter 
+
+新增一個ipyno檔,選python核心
+———————————————————————————————
+———————————————————————————————
+python 內建的含數有多少個?
+
+儲存1個值
+1.一般變數：
+儲存多個值才稱資料結構
+2.tuple：串邛資料(暫時使用,只用一下子)
+         用括號()
+         建立後,內容不可以更改
+	 最常用在：拆解法
+
+*3.list：串列資料：好處有索引編號可以排續
+          是用中括號
+	  只要是序列資料,一定有序號
+          #subscript:可以用序號取出值
+	  tuple跟list都可以這麼做
+
+            透過 for in 
+            iterable 可以一個一個取出資料
+            字串是iterable,可以一個一個取出
+           
+list只有序號,不是0.1.2各是什麼名稱
+
+*4.dcitionary：好處，每一個值都有名的意義可以對照
+　　　　　　　　map key value的概念, 會知道資料代表的名稱
+               用大括號
+               資料類型
+	       以逼號為分格
+               stud1 ={
+
+			}
+
+
+
+
+5.set：一組資料
+
+
+資料型別只有四種
+
+整數/浖天數/字串/布林值
+
+
+如果沒有指定給變數, 
+
+會強制用print()
+
+# 註解
+
+
+
+
+
+
+
+
+
+
+
+———————————————————————————————
+———————————————————————————————
+
+
+
+
+
+
+
+
+
+
+
+
+開啟資料夾, 
+建立一個py檔
+會提示安裝python套件
+跟vscode說要用那一個環境
+
+miniconda建立環境以後
+viscode 右下角可以選到自己要的環境
+
+
+max:zsh
+
+windows:minianacodas
+
+
+
+
+
+啟動虛擬環境
+conda activate myenv
+離開虛擬環境
+conda deactivate
+安裝套件
+conda activate myenv
+conda install matplotlib
+conda install --name myenv matplotlib
+安裝requirement.txt
+conda install --yes --file requirements.txt
+檢查目前安裝的套件
+conda list
+刪除虛擬環境
+conda env remove --name myenv
+刪除虛擬環境的套件
+
+
+
+———————————————————————————————
+———————————————————————————————
+
+1.上課網址:https://meet.google.com/ptx-fxwn-odh
+2.老師文件的網址：
+   2.1 python-SQLite-MySQL
+      https://github.com/roberthsu2003/python-SQLite-MySQL/tree/master/postgresSQL
+   2.2 _112_gov_Python_sql__
+      https://github.com/roberthsu2003/__112_gov_Python_sql__
+3.render 查密碼的網址：https://dashboard.render.com/d/dpg-cncof5mv3ddc73c84180-a
+
+   host 加singapore-postgres.render.com 
+
+4.github 自己的網址：https://github.com/rebecca20140214/PythonAP_DB
+
+5.下載老師提供的DB,restore 
+https://github.com/roberthsu2003/python-SQLite-MySQL/blob/master/postgresSQL/%E7%AF%84%E4%BE%8B%E8%B3%87%E6%96%99%E5%BA%AB/dvd_rental_database/dvdrental.zip
+6.老師是用mac figma講解
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+
