@@ -22,8 +22,8 @@
 https://github.com/roberthsu2003/python-SQLite-MySQL/blob/master/postgresSQL/%E7%AF%84%E4%BE%8B%E8%B3%87%E6%96%99%E5%BA%AB/dvd_rental_database/dvdrental.zip
 6.老師是用mac figma講解
 7. 基本browser要開
-   a.看Python標準函式庫 https://docs.python.org/zh-tw/3/library/index.html
-   b.Python說明文件
+   a.看Python標準函式庫 https://docs.python.org/zh-tw/3/library/functions.html
+   b.Python教學  https://docs.python.org/zh-tw/3/tutorial/index.html#tutorial-index
 8.老師介紹postgresql open source :  https://pgexercises.com/
 9.也可以用ORM, 自動轉SQL
 ———————————————————————————————
